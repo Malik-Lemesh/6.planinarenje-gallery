@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: rgb(65, 65, 65);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+/************
+header
+************/
+header {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h4 {
+    color: lightgray;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+header  hr {
+    width: 25%;
+    height: 1px;
+    background: lightgray;
+    margin: 60px auto 0 auto;
+
+}
+header h1 {
+    font-size: 10rem;
+    font-weight: 300;
+}
+/************
+two columns
+************/
+.two-columns  {
+    text-align: center;
+    padding: 100px 0;
+    background: lightgray;
+}
+.two-columns img {
+    width: 100%;
+    display: block;
+}
+.two-columns .container {
+    display: flex;
+    justify-content: space-between;
+}
+.two-columns .container article {
+    flex: 0 0 48%;
+}
+.two-columns .container article .text {
+    background: white;
+    padding: 50px;
+}
+
+/* stao 1:33 min */
